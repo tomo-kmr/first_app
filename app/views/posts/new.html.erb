@@ -1,4 +1,4 @@
-<h1>新規投稿ページ</h1>
+<h1>新規投稿ページ</h1><%#Github用コメント 追加 %>
 <%= form_with url: "/posts", method: :post, local: true do |form| %>
   <%= form.text_field :content %>
   <%= form.submit '投稿する' %>
